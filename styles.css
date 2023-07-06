@@ -1,5 +1,8 @@
 html {
     font-size: 15px;
+    --backdrop-clr: #a7c957;
+    --sec-backdrop-clr: #f2e8cf;
+    --highlight-clr: #bc4749;
 }
 * {
     padding: 0;
@@ -24,18 +27,40 @@ html {
 
 .main {
     width: 60vw;
-    background-color: whitesmoke;
+    background-color: var(--backdrop-clr, lightgreen);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .top {
-    padding: 80px 100px 60px 80px;
+    padding: 60px 90px 45px 80px;
 }
 .main-text {
     font-size: 1.5rem;
+    font-weight: 500;
     word-wrap: break-word;
 }
 .main-text + .main-text {
     margin-top: 30px;
 }
+
+.bottom {
+    padding: 25px 80px;
+    background-color: var(--sec-backdrop-clr, lightgoldenrodyellow);
+}
+form > .main-text {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+.small-text {
+    color: rgb(34, 34, 34);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+span {
+    color: var(--highlight-clr, crimson);
+}
+
+/*Color Palette - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749*/
