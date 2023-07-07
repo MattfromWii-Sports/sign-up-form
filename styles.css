@@ -32,7 +32,7 @@ html {
 }
 
 .top {
-    padding: 80px 60px;
+    padding: 70px 60px;
 }
 .main-text {
     font-size: 1.5rem;
@@ -40,10 +40,10 @@ html {
     word-wrap: break-word;
 }
 .main-text + .main-text {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
-.bottom {
+.middle {
     padding: 35px 60px;
     background-color: var(--sec-backdrop-clr, lightgoldenrodyellow);
 }
@@ -65,8 +65,8 @@ label {
 
 }
 input {
-    padding: 4px;
-    font-size: 1rem;
+    padding: 5px;
+    font-size: 1.1rem;
     display: block;
     margin-top: 5px;
     margin-right: 2rem;
