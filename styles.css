@@ -30,20 +30,20 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
-.banner > div {
+.banner .banner-body {
     background-color: rgba(70, 70, 70, 0.7);
     height: auto;
     width: 100%;
     padding: 2px 0;
     position: relative;
-    top: 18%;
+    top: 120px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5vw;
 }
-.banner > div > img {
+.banner-body > img {
     height: 9rem;
     filter: brightness(0) invert(1);
 }
@@ -63,7 +63,7 @@ h1 {
 }
 
 .top {
-    padding: 80px 60px 60px 60px;
+    padding: 76px 60px 60px;
 }
 .main-text {
     font-size: 1.5rem;
@@ -85,7 +85,7 @@ form > .main-text {
 }
 
 .bottom {
-    padding: 40px 60px 60px 60px;
+    padding: 40px 60px;
     background-color: var(--backdrop-clr, lightgreen);
 }
 button[type="submit"] {
