@@ -66,6 +66,7 @@ h1 {
     padding: 76px 60px 60px;
 }
 .main-text {
+    font-family: 'circular-std-bold', 'Trebuchet MS', 'Lucida Sans Unicode';
     font-size: 1.5rem;
     font-weight: 500;
     word-wrap: break-word;
@@ -123,9 +124,18 @@ input {
     display: block;
     margin-top: 5px;
     margin-right: 2rem;
-    border: 1.5px solid gray;
+    border: 2px solid rgb(150, 150, 150);
     border-radius: 4px;
-    width: 14rem;
+    width: 15rem;
+}
+
+input:focus:valid {
+    outline: none;
+    border: 2px solid #27bb45;
+}
+input:focus:invalid {
+    outline: none;
+    border: 2px solid var(--highlight-clr, crimson);;
 }
 
 /*Color Palette - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749 */

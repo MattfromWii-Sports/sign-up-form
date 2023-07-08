@@ -25,7 +25,7 @@
                         <div class="questions">
                             <label for="first-name">
                                 First Name
-                                <input type="text" id="first-name" name="user-first-name" maxlength="30">
+                                <input type="text" id="first-name" name="user-first-name"  maxlength="30" required>
                             </label>
                             <label for="last-name">
                                 Last Name
@@ -37,7 +37,7 @@
                             </label>
                             <label for="phone">
                                 Phone Number
-                                <input type="tel" id="phone" name="user-phone" maxlength="20" required>
+                                <input type="tel" id="phone" name="user-phone" maxlength="10" pattern="^[0-9]*$" required>
                             </label>
                             <label for="password">
                                 Password
