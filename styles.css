@@ -17,6 +17,7 @@ html {
     display: flex;
 }
 
+/*Left side*/
 .banner {
     width: 40vw;
     background-image: url('brokecar.jpg');
@@ -24,7 +25,20 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
+.banner > div {
+    background-color: rgba(102, 102, 102, 0.6);
+    height: auto;
+    width: 100%;
+    padding: 2vw;
+    position: relative;
+    top: 18%;
+    box-sizing: border-box;
+}
+.banner > div > img {
+    
+}
 
+/*Right side*/
 .main {
     width: 60vw;
     background-color: var(--backdrop-clr, lightgreen);
@@ -98,4 +112,4 @@ input {
     width: 14rem;
 }
 
-/*Color Palette - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749*/
+/*Color Palette - https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749 */
