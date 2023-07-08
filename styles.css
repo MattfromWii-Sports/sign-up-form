@@ -12,6 +12,11 @@ html {
     letter-spacing: .8px;
 }
 
+@font-face {
+    font-family: circular-std-bold;
+    src: url(CircularStdBold.woff);
+}
+
 .content {
     width: 100vw;
     display: flex;
@@ -26,16 +31,27 @@ html {
     background-repeat: no-repeat;
 }
 .banner > div {
-    background-color: rgba(102, 102, 102, 0.6);
+    background-color: rgba(70, 70, 70, 0.7);
     height: auto;
     width: 100%;
-    padding: 2vw;
+    padding: 2px 0;
     position: relative;
     top: 18%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
 }
 .banner > div > img {
-    
+    height: 9rem;
+    filter: brightness(0) invert(1);
+}
+h1 {
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'circular-std-bold', 'Trebuchet MS', 'Lucida Sans Unicode';
+    margin-top: 2px;
 }
 
 /*Right side*/
@@ -47,7 +63,7 @@ html {
 }
 
 .top {
-    padding: 60px;
+    padding: 80px 60px 60px 60px;
 }
 .main-text {
     font-size: 1.5rem;
